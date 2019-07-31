@@ -2,11 +2,11 @@
 
 instalation:
 
-pull repo,
-composer install,
-composer dump-autoload -o
-chmod -R 775 storage
+1. pull repo
+2. composer install
+3. composer dump-autoload -o
+4. chmod -R 775 storage
 
 start project:
 
-php -S localhost:8000 -t public
+1. php -S localhost:8000 -t public
